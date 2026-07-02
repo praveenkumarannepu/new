@@ -3,131 +3,684 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Praveen Kumar Annepu | Digital Marketing & Analytics Portfolio</title>
   <meta name="description" content="Portfolio of Praveen Kumar Annepu - Digital Marketing, Google Marketing Platform, GA4, Ad Operations, Campaign Management, Analytics, Stakeholder Management, and Customer Success." />
+  <meta property="og:title" content="Praveen Kumar Annepu | Digital Marketing & Analytics Portfolio" />
+  <meta property="og:description" content="7+ years in Digital Marketing, Google Marketing Platform, GA4, Ad Operations, Campaign Management, Analytics, Stakeholder Management, and Customer Success." />
+  <meta property="og:type" content="website" />
+
   <style>
-    :root{--primary:#0f4c81;--secondary:#1f7a8c;--accent:#f4b400;--dark:#111827;--text:#253041;--muted:#64748b;--light:#f4f7fb;--white:#fff;--border:#dbe4ee;--soft:#eef7fb;--shadow:0 10px 28px rgba(15,76,129,.12)}
-    *{box-sizing:border-box;scroll-behavior:smooth}
-    body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--light);color:var(--text);line-height:1.6}
-    header{background:radial-gradient(circle at top left,rgba(244,180,0,.22),transparent 32%),linear-gradient(135deg,#0f4c81,#1f7a8c);color:#fff;padding:76px 20px 56px;text-align:center}
-    .profile-mark{width:92px;height:92px;border-radius:50%;margin:0 auto 18px;display:flex;align-items:center;justify-content:center;font-size:32px;font-weight:800;color:var(--primary);background:#fff;border:4px solid rgba(255,255,255,.45);box-shadow:0 12px 32px rgba(0,0,0,.22)}
-    header h1{font-size:44px;margin:0 0 10px;letter-spacing:.3px}
-    header p{font-size:18px;max-width:920px;margin:8px auto}
-    nav{background:rgba(255,255,255,.96);backdrop-filter:blur(8px);padding:14px 20px;text-align:center;position:sticky;top:0;z-index:10;box-shadow:0 2px 10px rgba(0,0,0,.08)}
-    nav a{color:var(--primary);text-decoration:none;margin:0 10px;font-weight:700;font-size:14px}
-    section{max-width:1120px;margin:26px auto;background:#fff;padding:34px;border-radius:18px;box-shadow:var(--shadow)}
-    h2{color:var(--primary);margin-top:0;border-bottom:2px solid var(--border);padding-bottom:10px}
-    h3{color:var(--dark)}
-    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(235px,1fr));gap:16px}
-    .stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin-top:24px}
-    .stat{background:var(--soft);border:1px solid #cde7f0;border-radius:14px;padding:18px;text-align:center}
-    .stat strong{display:block;font-size:28px;color:var(--primary)}
-    .card{border:1px solid var(--border);border-radius:14px;padding:20px;background:#fbfdff;transition:transform .2s ease,box-shadow .2s ease}
-    .card:hover{transform:translateY(-3px);box-shadow:0 10px 22px rgba(15,76,129,.13)}
-    .badge{display:inline-block;background:#eaf3fb;color:var(--primary);padding:8px 12px;border-radius:999px;margin:6px 6px 6px 0;font-size:14px;font-weight:700}
-    .timeline{position:relative;margin-top:18px}
-    .timeline:before{content:"";position:absolute;left:31px;top:0;bottom:0;width:4px;background:linear-gradient(var(--primary),var(--secondary));border-radius:99px}
-    .timeline-item{position:relative;margin:0 0 28px 0;padding-left:78px}
-    .timeline-card{background:#fbfdff;border:1px solid var(--border);border-radius:18px;padding:24px;box-shadow:0 8px 22px rgba(15,76,129,.08)}
-    .logo{position:absolute;left:0;top:14px;width:66px;height:66px;border-radius:18px;background:#fff;color:var(--primary);border:3px solid var(--secondary);display:flex;align-items:center;justify-content:center;font-weight:900;font-size:18px;box-shadow:0 8px 18px rgba(0,0,0,.12);text-align:center}
-    .company-head{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;align-items:flex-start;margin-bottom:12px}
-    .company-head h3{margin:0 0 4px;font-size:22px}
-    .sub{color:var(--muted);font-weight:700;margin-bottom:6px}
-    .duration{color:var(--primary);font-weight:800;background:#eaf3fb;padding:8px 12px;border-radius:999px;white-space:nowrap;font-size:14px}
-    .achievement{background:#fff8e1;border-left:5px solid var(--accent);padding:13px 15px;border-radius:12px;margin:14px 0;font-weight:700;color:#5b4700}
-    ul{padding-left:20px}
-    li{margin-bottom:8px}
-    .link-btn{display:inline-block;background:var(--primary);color:#fff;text-decoration:none;padding:11px 16px;border-radius:10px;font-weight:800;margin:6px 8px 6px 0;border:1px solid transparent}
-    .link-btn.secondary{background:#fff;color:var(--primary);border-color:var(--primary)}
-    .contact-box{background:var(--soft);border:1px solid #cde7f0;padding:20px;border-radius:14px}
-    .skill-bar{margin:14px 0}.skill-row{display:flex;justify-content:space-between;font-weight:700;margin-bottom:6px}.bar{height:10px;background:#e8edf3;border-radius:999px;overflow:hidden}.fill{height:100%;background:linear-gradient(90deg,var(--primary),var(--secondary));border-radius:999px}
-    footer{text-align:center;padding:32px;color:var(--muted)}
-    @media(max-width:700px){header h1{font-size:31px}header p{font-size:16px}nav a{display:inline-block;margin:6px}section{margin:16px;padding:22px}.timeline:before{display:none}.timeline-item{padding-left:0}.logo{position:static;margin-bottom:14px}.duration{white-space:normal}}
+    :root {
+      --primary: #0f4c81;
+      --secondary: #1f7a8c;
+      --accent: #f4b400;
+      --bg: #f4f7fb;
+      --card: #ffffff;
+      --text: #243042;
+      --muted: #64748b;
+      --border: #dbe4ee;
+      --soft: #eef7fb;
+      --shadow: 0 18px 40px rgba(15, 76, 129, .14);
+      --dark: #0f172a;
+    }
+
+    body.dark {
+      --bg: #0f172a;
+      --card: #111c31;
+      --text: #e5e7eb;
+      --muted: #a7b0c2;
+      --border: #263247;
+      --soft: #14243a;
+      --shadow: 0 18px 40px rgba(0,0,0,.35);
+    }
+
+    * { box-sizing: border-box; scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a { color: inherit; }
+
+    header {
+      background:
+        radial-gradient(circle at top left, rgba(244,180,0,.25), transparent 32%),
+        radial-gradient(circle at bottom right, rgba(255,255,255,.15), transparent 28%),
+        linear-gradient(135deg, #0f4c81, #1f7a8c);
+      color: #fff;
+      padding: 82px 20px 64px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .theme-toggle {
+      position: fixed;
+      top: 18px;
+      right: 18px;
+      z-index: 999;
+      border: 1px solid rgba(255,255,255,.35);
+      background: rgba(15, 76, 129, .92);
+      color: #fff;
+      padding: 10px 13px;
+      border-radius: 999px;
+      cursor: pointer;
+      font-weight: 800;
+      box-shadow: 0 8px 22px rgba(0,0,0,.2);
+    }
+
+    .profile-mark {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      margin: 0 auto 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 32px;
+      font-weight: 900;
+      color: #0f4c81;
+      background: #fff;
+      border: 4px solid rgba(255,255,255,.55);
+      box-shadow: 0 15px 36px rgba(0,0,0,.25);
+    }
+
+    header h1 {
+      font-size: 46px;
+      margin: 0 0 10px;
+      letter-spacing: .3px;
+    }
+
+    header p {
+      font-size: 18px;
+      max-width: 930px;
+      margin: 8px auto;
+    }
+
+    .hero-actions { margin-top: 26px; }
+
+    nav {
+      background: rgba(255,255,255,.96);
+      backdrop-filter: blur(8px);
+      padding: 14px 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      box-shadow: 0 2px 12px rgba(0,0,0,.08);
+    }
+
+    body.dark nav { background: rgba(17, 28, 49, .96); }
+
+    nav a {
+      color: var(--primary);
+      text-decoration: none;
+      margin: 0 9px;
+      font-weight: 800;
+      font-size: 14px;
+    }
+
+    body.dark nav a { color: #8fd7e9; }
+
+    section {
+      max-width: 1140px;
+      margin: 28px auto;
+      background: var(--card);
+      padding: 36px;
+      border-radius: 22px;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+    }
+
+    h2 {
+      color: var(--primary);
+      margin-top: 0;
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 12px;
+    }
+
+    body.dark h2 { color: #8fd7e9; }
+
+    h3 { margin-top: 0; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(245px, 1fr));
+      gap: 18px;
+    }
+
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 14px;
+      margin-top: 24px;
+    }
+
+    .stat {
+      background: var(--soft);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 30px;
+      color: var(--primary);
+    }
+
+    body.dark .stat strong { color: #8fd7e9; }
+
+    .card {
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 22px;
+      background: var(--card);
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 14px 28px rgba(15, 76, 129, .16);
+    }
+
+    .badge {
+      display: inline-block;
+      background: #eaf3fb;
+      color: var(--primary);
+      padding: 8px 12px;
+      border-radius: 999px;
+      margin: 6px 6px 6px 0;
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    body.dark .badge {
+      background: #14324d;
+      color: #b7ecf6;
+    }
+
+    .link-btn {
+      display: inline-block;
+      background: var(--primary);
+      color: #fff;
+      text-decoration: none;
+      padding: 12px 17px;
+      border-radius: 12px;
+      font-weight: 900;
+      margin: 6px 8px 6px 0;
+      border: 1px solid transparent;
+      cursor: pointer;
+    }
+
+    .link-btn.secondary {
+      background: #fff;
+      color: var(--primary);
+      border-color: var(--primary);
+    }
+
+    body.dark .link-btn.secondary {
+      background: transparent;
+      color: #8fd7e9;
+      border-color: #8fd7e9;
+    }
+
+    .logo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(165px, 1fr));
+      gap: 16px;
+      margin-top: 22px;
+    }
+
+    .brand-logo {
+      min-height: 96px;
+      background: var(--soft);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 16px;
+      font-weight: 900;
+      letter-spacing: .2px;
+      box-shadow: 0 8px 18px rgba(0,0,0,.05);
+    }
+
+    .brand-logo span {
+      display: block;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    .deloitte { color: #111; background: #fff; }
+    .deloitte b::after { content: "."; color: #86bc25; font-size: 34px; }
+    .accenture { color: #a100ff; background: #fff; }
+    .accenture b::before { content: ">"; color: #a100ff; margin-right: 4px; }
+    .mediamint { color: #0f4c81; }
+    .itc { color: #0c4a6e; }
+    .knoah { color: #1f7a8c; }
+
+    body.dark .deloitte, body.dark .accenture { background: #fff; color: #111; }
+
+    .timeline {
+      position: relative;
+      margin-top: 20px;
+    }
+
+    .timeline:before {
+      content: "";
+      position: absolute;
+      left: 31px;
+      top: 0;
+      bottom: 0;
+      width: 4px;
+      background: linear-gradient(var(--primary), var(--secondary));
+      border-radius: 99px;
+    }
+
+    .timeline-item {
+      position: relative;
+      margin: 0 0 30px 0;
+      padding-left: 80px;
+    }
+
+    .timeline-logo {
+      position: absolute;
+      left: 0;
+      top: 12px;
+      width: 68px;
+      height: 68px;
+      border-radius: 18px;
+      background: #fff;
+      color: var(--primary);
+      border: 3px solid var(--secondary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      font-size: 17px;
+      box-shadow: 0 10px 20px rgba(0,0,0,.12);
+      text-align: center;
+    }
+
+    .timeline-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0 10px 24px rgba(15, 76, 129, .09);
+    }
+
+    .company-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 18px;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      margin-bottom: 12px;
+    }
+
+    .company-head h3 {
+      margin: 0 0 4px;
+      font-size: 23px;
+    }
+
+    .sub {
+      color: var(--muted);
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+
+    .duration {
+      color: var(--primary);
+      font-weight: 900;
+      background: #eaf3fb;
+      padding: 8px 12px;
+      border-radius: 999px;
+      white-space: nowrap;
+      font-size: 14px;
+    }
+
+    body.dark .duration {
+      background: #14324d;
+      color: #b7ecf6;
+    }
+
+    .achievement {
+      background: #fff8e1;
+      border-left: 5px solid var(--accent);
+      padding: 14px 16px;
+      border-radius: 14px;
+      margin: 15px 0;
+      font-weight: 800;
+      color: #5b4700;
+    }
+
+    body.dark .achievement {
+      background: #332b10;
+      color: #ffe9a3;
+    }
+
+    ul { padding-left: 20px; }
+    li { margin-bottom: 8px; }
+
+    .skill-bar { margin: 14px 0; }
+    .skill-row {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 800;
+      margin-bottom: 6px;
+    }
+    .bar {
+      height: 10px;
+      background: #e8edf3;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+    body.dark .bar { background: #263247; }
+    .fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--primary), var(--secondary));
+      border-radius: 999px;
+    }
+
+    .contact-box {
+      background: var(--soft);
+      border: 1px solid var(--border);
+      padding: 22px;
+      border-radius: 18px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0 14px;
+      border: 1px solid #cbd5e1;
+      border-radius: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+    }
+
+    body.dark input, body.dark textarea {
+      background: #0f172a;
+      color: #e5e7eb;
+      border-color: #334155;
+    }
+
+    footer {
+      text-align: center;
+      padding: 34px;
+      color: var(--muted);
+    }
+
+    @media(max-width: 720px) {
+      header h1 { font-size: 32px; }
+      header p { font-size: 16px; }
+      nav a { display: inline-block; margin: 6px; }
+      section { margin: 16px; padding: 22px; }
+      .timeline:before { display: none; }
+      .timeline-item { padding-left: 0; }
+      .timeline-logo { position: static; margin-bottom: 14px; }
+      .duration { white-space: normal; }
+    }
   </style>
 </head>
+
 <body>
+
+<button class="theme-toggle" onclick="toggleTheme()">🌙 / ☀️</button>
 
 <header>
   <div class="profile-mark">PKA</div>
   <h1>Praveen Kumar Annepu</h1>
   <p>Digital Marketing & Analytics Consultant | Google Marketing Platform | GA4 | Ad Operations | Customer Success</p>
   <p>7+ years of experience across campaign management, performance marketing, analytics implementation, tag management, stakeholder management, and client support.</p>
-  <div>
+  <div class="hero-actions">
     <a class="link-btn" href="Praveen_Kumar_Annepu_Resume.pdf" download>Download Resume</a>
     <a class="link-btn secondary" href="#contact">Contact Me</a>
+    <a class="link-btn secondary" href="https://www.linkedin.com/in/praveen-kumar-annepu-69307b13a" target="_blank">LinkedIn</a>
   </div>
 </header>
 
 <nav>
-  <a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#achievements">Achievements</a><a href="#certifications">Certifications</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="#companies">Companies</a>
+  <a href="#skills">Skills</a>
+  <a href="#experience">Experience</a>
+  <a href="#achievements">Achievements</a>
+  <a href="#certifications">Certifications</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
 </nav>
 
 <section id="about">
   <h2>About Me</h2>
-  <p>I am a results-driven Digital Marketing and Analytics professional with 7+ years of experience in performance marketing, ad operations, campaign management, web analytics, tag management, and client-facing support. I have worked across enterprise-level campaigns and analytics implementation projects for global clients.</p>
-  <p>My expertise includes SA360, CM360, DV360, Google Ads, GA4, GTM, Adobe Analytics, Adobe Launch, Tealium iQ, Looker Studio, Meta Business Manager, Twitter Ads, Pinterest, Jira, Genesis, Celtra, and Verve.</p>
+  <p>
+    I am a results-driven Digital Marketing and Analytics professional with 7+ years of experience in performance marketing,
+    ad operations, campaign management, web analytics, tag management, and client-facing support. I have worked across
+    enterprise-level campaigns and analytics implementation projects for global clients.
+  </p>
+  <p>
+    My expertise includes SA360, CM360, DV360, Google Ads, GA4, GTM, Adobe Analytics, Adobe Launch, Tealium iQ,
+    Looker Studio, Meta Business Manager, Twitter Ads, Pinterest, Jira, Genesis, Celtra, and Verve.
+  </p>
+
   <div class="stat-grid">
-    <div class="stat"><strong>7+ yrs</strong><span>Total experience</span></div>
-    <div class="stat"><strong>$50K+</strong><span>Campaign budgets managed</span></div>
-    <div class="stat"><strong>6</strong><span>Team members led</span></div>
-    <div class="stat"><strong>4</strong><span>New hires mentored</span></div>
+    <div class="stat"><strong>7+ yrs</strong><span>Total Experience</span></div>
+    <div class="stat"><strong>$50K+</strong><span>Campaign Budgets Managed</span></div>
+    <div class="stat"><strong>6</strong><span>Campaign Ops Team Led</span></div>
+    <div class="stat"><strong>4</strong><span>New Hires Mentored</span></div>
+  </div>
+</section>
+
+<section id="companies">
+  <h2>Companies & Brand Experience</h2>
+  <p>Professional experience across consulting, ad operations, enterprise support, claims operations, and technical customer support.</p>
+
+  <div class="logo-grid">
+    <div class="brand-logo deloitte"><div><b>Deloitte</b><span>Consultant - Digital Marketing</span></div></div>
+    <div class="brand-logo mediamint"><div><b>MediaMint</b><span>Campaign Manager</span></div></div>
+    <div class="brand-logo accenture"><div><b>Accenture</b><span>Business Operations Senior Analyst</span></div></div>
+    <div class="brand-logo itc"><div><b>ITC Infotech</b><span>Claims Analyst</span></div></div>
+    <div class="brand-logo knoah"><div><b>Knoah Solutions</b><span>Technical Support Engineer</span></div></div>
   </div>
 </section>
 
 <section id="skills">
   <h2>Core Skills</h2>
   <div>
-    <span class="badge">SA360</span><span class="badge">CM360</span><span class="badge">DV360</span><span class="badge">Google Ads</span><span class="badge">GA4</span><span class="badge">GTM</span><span class="badge">Adobe Analytics</span><span class="badge">Adobe Launch</span><span class="badge">Tealium iQ</span><span class="badge">Looker Studio</span><span class="badge">Meta Business Manager</span><span class="badge">Twitter Ads</span><span class="badge">Pinterest</span><span class="badge">Jira</span><span class="badge">Genesis</span><span class="badge">Verve</span><span class="badge">Celtra</span><span class="badge">Campaign Optimization</span><span class="badge">Stakeholder Management</span><span class="badge">Client Communication</span><span class="badge">Customer Support</span>
+    <span class="badge">SA360</span>
+    <span class="badge">CM360</span>
+    <span class="badge">DV360</span>
+    <span class="badge">Google Ads</span>
+    <span class="badge">GA4</span>
+    <span class="badge">GTM</span>
+    <span class="badge">Adobe Analytics</span>
+    <span class="badge">Adobe Launch</span>
+    <span class="badge">Tealium iQ</span>
+    <span class="badge">Looker Studio</span>
+    <span class="badge">Meta Business Manager</span>
+    <span class="badge">Twitter Ads</span>
+    <span class="badge">Pinterest</span>
+    <span class="badge">Jira</span>
+    <span class="badge">Genesis</span>
+    <span class="badge">Verve</span>
+    <span class="badge">Celtra</span>
+    <span class="badge">Campaign Optimization</span>
+    <span class="badge">Stakeholder Management</span>
+    <span class="badge">Client Communication</span>
+    <span class="badge">Customer Support</span>
   </div>
+
   <div class="grid" style="margin-top:22px">
-    <div class="card"><h3>Platform Expertise</h3><div class="skill-bar"><div class="skill-row"><span>Google Marketing Platform</span><span>80%</span></div><div class="bar"><div class="fill" style="width:80%"></div></div></div><div class="skill-bar"><div class="skill-row"><span>Analytics & Tag Management</span><span>60%</span></div><div class="bar"><div class="fill" style="width:60%"></div></div></div><div class="skill-bar"><div class="skill-row"><span>Ad Operations</span><span>92%</span></div><div class="bar"><div class="fill" style="width:92%"></div></div></div></div>
-    <div class="card"><h3>Business Strengths</h3><div class="skill-bar"><div class="skill-row"><span>Stakeholder Management</span><span>90%</span></div><div class="bar"><div class="fill" style="width:90%"></div></div></div><div class="skill-bar"><div class="skill-row"><span>Client Support</span><span>88%</span></div><div class="bar"><div class="fill" style="width:88%"></div></div></div><div class="skill-bar"><div class="skill-row"><span>Team Leadership</span><span>85%</span></div><div class="bar"><div class="fill" style="width:85%"></div></div></div></div>
+    <div class="card">
+      <h3>Platform Expertise</h3>
+      <div class="skill-bar"><div class="skill-row"><span>Google Marketing Platform</span><span>80%</span></div><div class="bar"><div class="fill" style="width:80%"></div></div></div>
+      <div class="skill-bar"><div class="skill-row"><span>Analytics & Tag Management</span><span>60%</span></div><div class="bar"><div class="fill" style="width:60%"></div></div></div>
+      <div class="skill-bar"><div class="skill-row"><span>Ad Operations</span><span>92%</span></div><div class="bar"><div class="fill" style="width:92%"></div></div></div>
+    </div>
+
+    <div class="card">
+      <h3>Business Strengths</h3>
+      <div class="skill-bar"><div class="skill-row"><span>Stakeholder Management</span><span>90%</span></div><div class="bar"><div class="fill" style="width:90%"></div></div></div>
+      <div class="skill-bar"><div class="skill-row"><span>Client Support</span><span>88%</span></div><div class="bar"><div class="fill" style="width:88%"></div></div></div>
+      <div class="skill-bar"><div class="skill-row"><span>Team Leadership</span><span>85%</span></div><div class="bar"><div class="fill" style="width:85%"></div></div></div>
+    </div>
   </div>
 </section>
 
 <section id="experience">
   <h2>Professional Experience</h2>
+
   <div class="timeline">
 
-    <div class="timeline-item"><div class="logo">https://stagvinecip01.blob.core.windows.net/stc-gvine-blob-centralindia-prod-001-django/images/post/40578b46-6396-4017-8dc0-1dc2315435be/image/20240615180639.webp</div><div class="timeline-card">
-      <div class="company-head"><div><h3>Deloitte Consulting India Private Limited</h3><div class="sub">Consultant - Digital Marketing</div></div><div class="duration">Sep 2021 - Jun 2023</div></div>
-      <div><span class="badge">Google Ads</span><span class="badge">Meta Business Manager</span><span class="badge">Twitter Ads</span><span class="badge">Pinterest</span><span class="badge">CM360</span><span class="badge">DV360</span><span class="badge">GTM</span><span class="badge">GA360</span><span class="badge">GA4 Migration</span><span class="badge">Tealium</span><span class="badge">Adobe Analytics</span><span class="badge">DDA Attribution</span></div>
-      <div class="achievement">Key achievement: Coordinated a 4-member consulting team across campaign management, analytics implementation, and tracking projects.</div>
-      <ul><li>Worked on three enterprise digital marketing projects covering campaign management, web analytics, tag management, and analytics implementation for global clients.</li><li>Managed campaign setup and trafficking across Meta Business Manager, Google Ads, Twitter Ads, and Campaign Manager 360 using Minerva for third-party tag generation.</li><li>Managed campaign trafficking, daily pacing, weekly reporting, and end-of-campaign performance reporting.</li><li>Managed digital advertising campaigns across Search, Display, and Paid Social channels.</li><li>Performed Google Tag Manager validation by identifying untracked website events and validating active and inactive GTM tags.</li><li>Supported GA3 to GA4 migration, DDA attribution model maintenance, goal setup, data import, technical design documents, and playbooks.</li><li>Implemented page-load and click-based MediaCom pixels using Tealium and ensured successful production deployment.</li><li>Validated Adobe Analytics calls, performed regression testing across Tealium profiles, and removed legacy pixels from the ecosystem.</li></ul>
-    </div></div>
+    <div class="timeline-item">
+      <div class="timeline-logo">D</div>
+      <div class="timeline-card">
+        <div class="company-head">
+          <div>
+            <h3>Deloitte Consulting India Private Limited</h3>
+            <div class="sub">Consultant - Digital Marketing</div>
+          </div>
+          <div class="duration">Sep 2021 - Jun 2023</div>
+        </div>
 
-    <div class="timeline-item"><div class="logo">https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvgvja_Ctuny4rDv5AN3aN3I1Ussm3ba77vUUgCNUwvdEuK4cE-xhTWKcg&s=10</div><div class="timeline-card">
-      <div class="company-head"><div><h3>MediaMint</h3><div class="sub">Campaign Manager</div></div><div class="duration">Sep 2019 - Sep 2021</div></div>
-      <div><span class="badge">CM360</span><span class="badge">IAS</span><span class="badge">Sizmek</span><span class="badge">Genesis</span><span class="badge">Celtra</span><span class="badge">Verve</span><span class="badge">SA360</span><span class="badge">Google Ads</span><span class="badge">Campaign QA</span></div>
-      <div class="achievement">Key achievement: Led a 6-member campaign operations team while ensuring campaign quality and stakeholder communication.</div>
-      <ul><li>Managed campaign setup, trafficking, and reporting for Valassis advertisers.</li><li>Implemented Campaign Manager 360, IAS, Sizmek, and third-party tracking solutions.</li><li>Worked with Genesis, Celtra, Verve, Search Ads 360, and Google Ads.</li><li>Performed campaign QA, creative validation, tag validation, and troubleshooting to ensure successful campaign delivery.</li><li>Monitored campaign performance and collaborated with stakeholders to resolve campaign-related issues.</li></ul>
-    </div></div>
+        <div>
+          <span class="badge">Google Ads</span><span class="badge">Meta Business Manager</span><span class="badge">Twitter Ads</span><span class="badge">Pinterest</span><span class="badge">CM360</span><span class="badge">DV360</span><span class="badge">GTM</span><span class="badge">GA360</span><span class="badge">GA4 Migration</span><span class="badge">Tealium</span><span class="badge">Adobe Analytics</span><span class="badge">DDA Attribution</span>
+        </div>
 
-    <div class="timeline-item"><div class="logo">https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuSvmMBLGKKticqvhwe39zP_CI8tZNBbNrcQTfdKqeJg&s</div><div class="timeline-card">
-      <div class="company-head"><div><h3>Accenture</h3><div class="sub">Business Operations Senior Analyst</div></div><div class="duration">Aug 2017 - Aug 2019</div></div>
-      <div><span class="badge">SA360</span><span class="badge">CM360</span><span class="badge">Google Ads</span><span class="badge">Microsoft Ads</span><span class="badge">Google Analytics</span><span class="badge">Merchant Center</span><span class="badge">SA360 Reporting</span></div>
-      <div class="achievement">Key achievement: Received Best Employee of the Year at Accenture and mentored 4 new hires.</div>
-      <ul><li>Supported enterprise advertisers using Search Ads 360, providing campaign management, reporting, optimization, and troubleshooting across Google Marketing Platform.</li><li>Worked on SA360 reporting, campaign creation, and campaign optimization.</li><li>Worked with Campaign Manager 360, Google Ads, Microsoft Ads, Google Analytics, and Merchant Center.</li><li>Prepared campaign performance reports and collaborated with stakeholders to improve campaign effectiveness.</li><li>Mentored and trained four new hires on SA360 workflows, campaign troubleshooting, and client communication.</li></ul>
-    </div></div>
+        <div class="achievement">Key achievement: Coordinated a 4-member consulting team across campaign management, analytics implementation, and tracking projects.</div>
 
-    <div class="timeline-item"><div class="logo">https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRM_qQky_7QDn3IpqsCOMM60qwVplrtRPDxS0im1AETfrwk6ef30Melrs&s=10</div><div class="timeline-card">
-      <div class="company-head"><div><h3>ITC Infotech</h3><div class="sub">Claims Analyst</div></div><div class="duration">Aug 2016 - Mar 2017</div></div>
-      <div><span class="badge">Claims Processing</span><span class="badge">UnitedHealth Group</span><span class="badge">Reporting</span><span class="badge">Process Support</span><span class="badge">Peer Support</span></div>
-      <ul><li>Provided claims processing support for UnitedHealth Group.</li><li>Assisted peers with process-related queries and operational support.</li><li>Built a strong foundation in enterprise operations, process management, and stakeholder coordination.</li></ul>
-    </div></div>
+        <ul>
+          <li>Worked on three enterprise digital marketing projects covering campaign management, web analytics, tag management, and analytics implementation for global clients.</li>
+          <li>Managed campaign setup and trafficking across Meta Business Manager, Google Ads, Twitter Ads, and Campaign Manager 360 using Minerva for third-party tag generation.</li>
+          <li>Managed campaign trafficking, daily pacing, weekly reporting, and end-of-campaign performance reporting.</li>
+          <li>Managed digital advertising campaigns across Search, Display, and Paid Social channels.</li>
+          <li>Performed Google Tag Manager validation by identifying untracked website events and validating active and inactive GTM tags.</li>
+          <li>Supported GA3 to GA4 migration, DDA attribution model maintenance, goal setup, data import, technical design documents, and playbooks.</li>
+          <li>Implemented page-load and click-based MediaCom pixels using Tealium and ensured successful production deployment.</li>
+          <li>Validated Adobe Analytics calls, performed regression testing across Tealium profiles, and removed legacy pixels from the ecosystem.</li>
+        </ul>
+      </div>
+    </div>
 
-    <div class="timeline-item"><div class="logo">https://media.licdn.com/dms/image/v2/C510BAQEd3X6xZz5ypA/company-logo_200_200/company-logo_200_200/0/1630596249159?e=2147483647&v=beta&t=uAq-0EMiNu-M2XrsBqeZqAyriz2YaT9hRBm7kpofjhA</div><div class="timeline-card">
-      <div class="company-head"><div><h3>Knoah Solutions</h3><div class="sub">Technical Support Engineer - Internet, Voice & Cable Services</div></div><div class="duration">Jun 2015 - Jun 2016</div></div>
-      <div><span class="badge">Technical Support</span><span class="badge">Internet Services</span><span class="badge">Cable TV</span><span class="badge">Digital Phone</span><span class="badge">Customer Support</span><span class="badge">Issue Resolution</span></div>
-      <div class="achievement">Key achievement: Awarded the Bravo Award at Knoah Solutions.</div>
-      <ul><li>Provided technical support for Internet, Cable TV, and Digital Phone services.</li><li>Diagnosed technical issues and delivered timely resolutions to customers.</li><li>Developed strong customer service, communication, troubleshooting, and client support skills.</li></ul>
-    </div></div>
+    <div class="timeline-item">
+      <div class="timeline-logo">MM</div>
+      <div class="timeline-card">
+        <div class="company-head">
+          <div>
+            <h3>MediaMint</h3>
+            <div class="sub">Campaign Manager</div>
+          </div>
+          <div class="duration">Sep 2019 - Sep 2021</div>
+        </div>
+
+        <div>
+          <span class="badge">CM360</span><span class="badge">IAS</span><span class="badge">Sizmek</span><span class="badge">Genesis</span><span class="badge">Celtra</span><span class="badge">Verve</span><span class="badge">SA360</span><span class="badge">Google Ads</span><span class="badge">Campaign QA</span>
+        </div>
+
+        <div class="achievement">Key achievement: Led a 6-member campaign operations team while ensuring campaign quality and stakeholder communication.</div>
+
+        <ul>
+          <li>Managed campaign setup, trafficking, and reporting for Valassis advertisers.</li>
+          <li>Implemented Campaign Manager 360, IAS, Sizmek, and third-party tracking solutions.</li>
+          <li>Worked with Genesis, Celtra, Verve, Search Ads 360, and Google Ads.</li>
+          <li>Performed campaign QA, creative validation, tag validation, and troubleshooting to ensure successful campaign delivery.</li>
+          <li>Monitored campaign performance and collaborated with stakeholders to resolve campaign-related issues.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-logo">A</div>
+      <div class="timeline-card">
+        <div class="company-head">
+          <div>
+            <h3>Accenture</h3>
+            <div class="sub">Business Operations Senior Analyst</div>
+          </div>
+          <div class="duration">Aug 2017 - Aug 2019</div>
+        </div>
+
+        <div>
+          <span class="badge">SA360</span><span class="badge">CM360</span><span class="badge">Google Ads</span><span class="badge">Microsoft Ads</span><span class="badge">Google Analytics</span><span class="badge">Merchant Center</span><span class="badge">SA360 Reporting</span>
+        </div>
+
+        <div class="achievement">Key achievement: Received Best Employee of the Year at Accenture and mentored 4 new hires.</div>
+
+        <ul>
+          <li>Supported enterprise advertisers using Search Ads 360, providing campaign management, reporting, optimization, and troubleshooting across Google Marketing Platform.</li>
+          <li>Worked on SA360 reporting, campaign creation, and campaign optimization.</li>
+          <li>Worked with Campaign Manager 360, Google Ads, Microsoft Ads, Google Analytics, and Merchant Center.</li>
+          <li>Prepared campaign performance reports and collaborated with stakeholders to improve campaign effectiveness.</li>
+          <li>Mentored and trained four new hires on SA360 workflows, campaign troubleshooting, and client communication.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-logo">ITC</div>
+      <div class="timeline-card">
+        <div class="company-head">
+          <div>
+            <h3>ITC Infotech</h3>
+            <div class="sub">Claims Analyst</div>
+          </div>
+          <div class="duration">Aug 2016 - Mar 2017</div>
+        </div>
+
+        <div>
+          <span class="badge">Claims Processing</span><span class="badge">UnitedHealth Group</span><span class="badge">Reporting</span><span class="badge">Process Support</span><span class="badge">Peer Support</span>
+        </div>
+
+        <ul>
+          <li>Provided claims processing support for UnitedHealth Group.</li>
+          <li>Assisted peers with process-related queries and operational support.</li>
+          <li>Built a strong foundation in enterprise operations, process management, and stakeholder coordination.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-logo">K</div>
+      <div class="timeline-card">
+        <div class="company-head">
+          <div>
+            <h3>Knoah Solutions</h3>
+            <div class="sub">Technical Support Engineer - Internet, Voice & Cable Services</div>
+          </div>
+          <div class="duration">Jun 2015 - Jun 2016</div>
+        </div>
+
+        <div>
+          <span class="badge">Technical Support</span><span class="badge">Internet Services</span><span class="badge">Cable TV</span><span class="badge">Digital Phone</span><span class="badge">Customer Support</span><span class="badge">Issue Resolution</span>
+        </div>
+
+        <div class="achievement">Key achievement: Awarded the Bravo Award at Knoah Solutions.</div>
+
+        <ul>
+          <li>Provided technical support for Internet, Cable TV, and Digital Phone services.</li>
+          <li>Diagnosed technical issues and delivered timely resolutions to customers.</li>
+          <li>Developed strong customer service, communication, troubleshooting, and client support skills.</li>
+        </ul>
+      </div>
+    </div>
 
   </div>
 </section>
 
 <section id="achievements">
   <h2>Professional Achievements</h2>
+
   <div class="grid">
     <div class="card"><h3>USD 50,000+ Campaign Budgets</h3><p>Managed digital advertising campaigns with budgets of up to USD 50,000 across Google Marketing Platform and paid social channels.</p></div>
     <div class="card"><h3>End-to-End Campaign Execution</h3><p>Executed campaigns using Google Ads, SA360, CM360, DV360, Meta Ads, Twitter Ads, and Pinterest.</p></div>
@@ -140,26 +693,67 @@
 
 <section id="certifications">
   <h2>Certifications & Learning</h2>
+
   <div class="grid">
-    <div class="card"><h3>Search Ads 360 Certification</h3><p>Google Skillshop certification focused on SA360 reporting, campaign management, and optimization.</p><a class="link-btn" href="https://skillshop.credential.net/2d0fd04a-86e0-497c-8b63-0e24df489db4#acc.350q7cRG" target="_blank">View Certificate</a></div>
-    <div class="card"><h3>Campaign Manager 360 Certification</h3><p>Google Skillshop certification focused on ad serving, campaign trafficking, Floodlight, and reporting.</p><a class="link-btn" href="https://skillshop.credential.net/ccdf21ee-0579-437c-aa67-d56f493ec3a8#acc.qGIYQkAi" target="_blank">View Certificate</a></div>
-    <div class="card"><h3>Google Ads Certification</h3><p>Google Skillshop certification covering paid search strategy, bidding, targeting, and optimization.</p><a class="link-btn" href="https://skillshop.credential.net/5b4d13e0-910d-4037-8818-68c1c3861dc4#acc.F0EWYXu7" target="_blank">View Certificate</a></div>
-    <div class="card"><h3>Google Analytics Certification</h3><p>Google Skillshop certification covering GA4 reports, events, key events, audiences, attribution, and measurement.</p><a class="link-btn" href="https://skillshop.credential.net/afcf2c98-d86a-41f4-bc97-3340296573cd#acc.yGCLwAHp" target="_blank">View Certificate</a></div>
-    <div class="card"><h3>Conversion Optimization Certification Exam</h3><p>Hands-on implementation experience with event tracking, tag validation, and website tracking workflows.</p><a class="link-btn" href="https://skillshop.credential.net/7736a4d8-c641-44a5-b075-d078f24f652d#acc.QZJYuqvP" target="_blank">View Certificate</a></div>
-  
+    <div class="card">
+      <h3>Search Ads 360 Certification</h3>
+      <p>Google Skillshop certification focused on SA360 reporting, campaign management, and optimization.</p>
+      <a class="link-btn" href="https://skillshop.credential.net/2d0fd04a-86e0-497c-8b63-0e24df489db4#acc.350q7cRG" target="_blank">View Certificate</a>
+    </div>
+
+    <div class="card">
+      <h3>Campaign Manager 360 Certification</h3>
+      <p>Google Skillshop certification focused on ad serving, campaign trafficking, Floodlight, and reporting.</p>
+      <a class="link-btn" href="https://skillshop.credential.net/ccdf21ee-0579-437c-aa67-d56f493ec3a8#acc.qGIYQkAi" target="_blank">View Certificate</a>
+    </div>
+
+    <div class="card">
+      <h3>Google Ads Certification</h3>
+      <p>Google Skillshop certification covering paid search strategy, bidding, targeting, and optimization.</p>
+      <a class="link-btn" href="https://skillshop.credential.net/5b4d13e0-910d-4037-8818-68c1c3861dc4#acc.F0EWYXu7" target="_blank">View Certificate</a>
+    </div>
+
+    <div class="card">
+      <h3>Google Analytics Certification</h3>
+      <p>Google Skillshop certification covering GA4 reports, events, key events, audiences, attribution, and measurement.</p>
+      <a class="link-btn" href="https://skillshop.credential.net/afcf2c98-d86a-41f4-bc97-3340296573cd#acc.yGCLwAHp" target="_blank">View Certificate</a>
+    </div>
+
+    <div class="card">
+      <h3>Conversion Optimization Certification Exam</h3>
+      <p>Certification covering CRO, user experience, mobile optimization, landing page performance, and conversion improvement strategies.</p>
+      <a class="link-btn" href="https://skillshop.credential.net/7736a4d8-c641-44a5-b075-d078f24f652d#acc.QZJYuqvP" target="_blank">View Certificate</a>
+    </div>
   </div>
 </section>
 
 <section id="projects">
   <h2>Projects & Case Study Areas</h2>
+
   <div class="grid">
-    <div class="card"><h3>Campaign Management & Reporting</h3><p>Campaign setup, trafficking, daily pacing, weekly reporting, and end-of-campaign reporting across Search, Display, and Paid Social.</p></div>
-    <div class="card"><h3>Tag Management & Analytics</h3><p>GTM validation, DDA attribution model support, goal setup, data import, GA360, and GA3 to GA4 migration activities.MediaCom pixel implementation, Tealium deployment, Adobe Analytics validation, regression testing, and legacy pixel removal.</p></div>
-    <div class="card"><h3>Ad Operations manager</h3><p>Managed end-to-end digital advertising campaigns across Search, Display,
-        Video, and Paid Social channels for global enterprise clients. Responsible
-        for campaign setup, trafficking, QA, optimization, reporting, and
-        stakeholder communication throughout the campaign lifecycle.</p></div>
-    <div class="card"><h3>Client & Stakeholder Support</h3><p>Daily and weekly stakeholder reporting, cross-functional coordination, troubleshooting, and client communication.</p></div>
+    <div class="card">
+      <h3>Campaign Management & Reporting</h3>
+      <p>Campaign setup, trafficking, daily pacing, weekly reporting, and end-of-campaign reporting across Search, Display, and Paid Social.</p>
+      <span class="badge">Google Ads</span><span class="badge">CM360</span><span class="badge">Meta Ads</span><span class="badge">Twitter Ads</span>
+    </div>
+
+    <div class="card">
+      <h3>Tag Management & Analytics</h3>
+      <p>GTM validation, DDA attribution model support, goal setup, data import, GA360, GA3 to GA4 migration activities, MediaCom pixel implementation, Tealium deployment, Adobe Analytics validation, regression testing, and legacy pixel removal.</p>
+      <span class="badge">GTM</span><span class="badge">GA4</span><span class="badge">Tealium</span><span class="badge">Adobe Analytics</span>
+    </div>
+
+    <div class="card">
+      <h3>Ad Operations Management</h3>
+      <p>Managed end-to-end digital advertising campaigns across Search, Display, Video, and Paid Social channels for global enterprise clients. Responsible for campaign setup, trafficking, QA, optimization, reporting, and stakeholder communication throughout the campaign lifecycle.</p>
+      <span class="badge">Ad Operations</span><span class="badge">Campaign QA</span><span class="badge">Stakeholder Management</span>
+    </div>
+
+    <div class="card">
+      <h3>Client & Stakeholder Support</h3>
+      <p>Daily and weekly stakeholder reporting, cross-functional coordination, troubleshooting, client communication, and issue resolution.</p>
+      <span class="badge">Client Support</span><span class="badge">Reporting</span><span class="badge">Troubleshooting</span>
+    </div>
   </div>
 </section>
 
@@ -171,14 +765,17 @@
   </div>
 </section>
 
-
 <section id="contact">
   <h2>Contact</h2>
 
   <div class="contact-box">
     <p><strong>Email:</strong> kumarpraveen719@gmail.com</p>
     <p><strong>Mobile:</strong> +91 9703299098</p>
-    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/praveen-kumar-annepu-69307b13a" target="_blank">linkedin.com/in/praveen-kumar-annepu-69307b13a</a></p>
+    <p><strong>LinkedIn:</strong>
+      <a href="https://www.linkedin.com/in/praveen-kumar-annepu-69307b13a" target="_blank">
+        linkedin.com/in/praveen-kumar-annepu-69307b13a
+      </a>
+    </p>
     <p><strong>Location:</strong> Hyderabad, India</p>
     <p><strong>Availability:</strong> Immediate Joiner</p>
 
@@ -195,21 +792,33 @@
       <input type="hidden" name="_captcha" value="false">
 
       <label>Your Name</label>
-      <input type="text" name="name" required style="width:100%;padding:12px;margin:8px 0 14px;border:1px solid #ccc;border-radius:8px;">
+      <input type="text" name="name" required>
 
       <label>Your Email</label>
-      <input type="email" name="email" required style="width:100%;padding:12px;margin:8px 0 14px;border:1px solid #ccc;border-radius:8px;">
+      <input type="email" name="email" required>
 
       <label>Message</label>
-      <textarea name="message" rows="5" required style="width:100%;padding:12px;margin:8px 0 14px;border:1px solid #ccc;border-radius:8px;"></textarea>
+      <textarea name="message" rows="5" required></textarea>
 
-      <button type="submit" class="link-btn" style="cursor:pointer;">Send Message</button>
+      <button type="submit" class="link-btn">Send Message</button>
     </form>
   </div>
 </section>
 
+<footer>
+  © 2026 Praveen Kumar Annepu | Digital Marketing & Analytics Portfolio
+</footer>
 
-<footer>© 2026 Praveen Kumar Annepu | Digital Marketing & Analytics Portfolio</footer>
+<script>
+  function toggleTheme() {
+    document.body.classList.toggle("dark");
+    localStorage.setItem("theme", document.body.classList.contains("dark") ? "dark" : "light");
+  }
+
+  if (localStorage.getItem("theme") === "dark") {
+    document.body.classList.add("dark");
+  }
+</script>
 
 </body>
 </html>
